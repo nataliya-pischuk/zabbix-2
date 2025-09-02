@@ -34,7 +34,7 @@ Update interval: укажем интервал обновления, напри�
 
 ![alt text](img/create_templates.JPG)
 ![alt text](img/items.JPG)
-![alt text](img/CPU_items.JPG)
+![alt text](img/CPU_item.JPG)
 
 3. Создадим Item который будет собирать информацию об загрузке RAM в процентах
 Поля для нового Item:
@@ -47,7 +47,7 @@ Type of information: выберем Numeric (float).
 Units: укажем %.
 Update interval: укажем интервал обновления, например, 10s.
 
-![alt text](img/RAM_items.JPG)
+![alt text](img/RAM_item.JPG)
 
 4. Проверим и применим шаблон
 
