@@ -32,9 +32,9 @@ Type of information: выберем Numeric (float).
 Units: укажем %.
 Update interval: укажем интервал обновления, например, 10s.
 
-![alt text](img/Create templates.JPG)
+![alt text](img/create_templates.JPG)
 ![alt text](img/items.JPG)
-
+![alt text](img/CPU_items.JPG)
 
 3. Создадим Item который будет собирать информацию об загрузке RAM в процентах
 Поля для нового Item:
@@ -47,24 +47,18 @@ Type of information: выберем Numeric (float).
 Units: укажем %.
 Update interval: укажем интервал обновления, например, 10s.
 
-
-По итогу в Data collection → Templates получим следующее:
-
-![image](https://github.com/user-attachments/assets/149c4d0c-a426-4144-afa3-e45ce7b943ad)
+![alt text](img/RAM_items.JPG)
 
 4. Проверим и применим шаблон
 
-![image](https://github.com/user-attachments/assets/014cb69e-23b1-40fb-9132-28046d2e40c9)
-
-6. Проверка данных
 Перейдите в раздел Monitoring → Latest data.
 Выберем хост, к которому привязан шаблон.
 
+##### CPU
+![alt text](img/CPU.JPG)
 
-CPU
-
-
-RAM
+##### RAM
+![alt text](img/RAM.JPG)
 
 
 ### Задание 2
@@ -84,15 +78,10 @@ RAM
 1. Войдём в веб-интерфейс Zabbix.
 2. Перейдём в раздел "Data collection → Hosts".
 3. Далее "Create host".
-4. Введём имя хоста (kaznacheevim-1 и аналогично kaznacheevim-2), выберем тип "Agent". Пропишем IP 10.0.2.16 и, а в настройках kaznacheevim-2 соответственно IP 10.0.2.16.
+4. Введём имя хоста (pischuknv-vim1 и аналогично pischuknv-vim2), выберем тип "Agent". Пропишем IP 127.0.0.1 и, а в настройках pischuknv-vim1 соответственно IP 192.168.56.11.
 5. В секции "Templates" выберем шаблон "Linux by Zabbix Agent".
 
-![image](https://github.com/user-attachments/assets/c0039b12-d863-4cbb-bb6a-bcaaeff7fb47)
-
-Проверка данных с агентов
-1. Перейдём в раздел " Monitoring → Latest data".
-2. Проверим, появляются ли данные с агентов kaznacheevim-1 и kaznacheevim-2.
-
+![alt text](img/2hosts.JPG)
 
 
 ### Задание 3
