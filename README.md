@@ -33,7 +33,9 @@ Type of information: выберем Numeric (float).
 Units: укажем %.
 Update interval: укажем интервал обновления, например, 10s.
 
-![image](https://github.com/user-attachments/assets/dd9c5649-020e-4453-89fc-68b2264cf65e)
+![alt text](img/Create templates.JPG)
+![alt text](img/items.JPG)
+![alt text](img/create macros.JPG)
 
 3. Создадим Item который будет собирать информацию об загрузке RAM в процентах
 Поля для нового Item:
