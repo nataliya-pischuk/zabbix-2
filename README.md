@@ -21,9 +21,9 @@ Template name: Укажим имя шаблона, «Template CPU and RAM Monito
 Groups: выберем группы, в которой будет сохранён шаблон (Templates).
 Нажмём Add. (Группы: Templates, linux)
 1.5 Добавляем макросы:
-![alt text](img/create macros.JPG)
+![alt text](img/create_macros.JPG)
 
-2. Создаем Item который будет собирать информацию об загрузке CPU в процентах
+3. Создаем Item который будет собирать информацию об загрузке CPU в процентах
 Поля для нового Item:
 Name: укажем имя «CPU Load».
 Type: выберем Zabbix agent.
