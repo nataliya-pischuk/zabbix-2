@@ -21,20 +21,14 @@ Template name: Укажим имя шаблона, «Template CPU and RAM Monito
 Groups: выберем группы, в которой будет сохранён шаблон (Templates).
 Нажмём Add. (Группы: Templates, linux)
 1.5 Добавляем макросы:
-![alt text](img/create_macros.JPG)
-
-3. Создаем Item который будет собирать информацию об загрузке CPU в процентах
+2. Создаем Item который будет собирать информацию об загрузке CPU в процентах
 Поля для нового Item:
 Name: укажем имя «CPU Load».
 Type: выберем Zabbix agent.
 Key: укажем ключ system.cpu.util[all]
 Type of information: выберем Numeric (float).
 Units: укажем %.
-Update interval: укажем интервал обновления, например, 10s.
-
-![alt text](img/create_templates.JPG)
-![alt text](img/items.JPG)
-![alt text](img/CPU_item.JPG)
+Update interval: укажем интервал обновления, в моем случае 10s.
 
 3. Создадим Item который будет собирать информацию об загрузке RAM в процентах
 Поля для нового Item:
@@ -47,19 +41,8 @@ Type of information: выберем Numeric (float).
 Units: укажем %.
 Update interval: укажем интервал обновления, например, 10s.
 
-![alt text](img/RAM_item.JPG)
-
-4. Проверим и применим шаблон
-
-Перейдите в раздел Monitoring → Latest data.
-Выберем хост, к которому привязан шаблон.
-
-##### CPU
-![alt text](img/CPU.JPG)
-
-##### RAM
-![alt text](img/RAM.JPG)
-
+#### Шаблон Zadanie1
+![alt text](img/zadanie1.JPG)
 
 ### Задание 2
 Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
